@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studi.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="all">
+    <div class="bord">
+        <table cellspacing="0">
+            <tr>
+                <td>Nir</td>
+                <td>Bon de cons.</td>
+                <td >Bon de transfer</td>
+                <td>P.V.de mod.pret</td>
+                <td class="main">P.V. de inventare</td>
+                <td class="inl">
+                    <button > < </button> 
+                    <button > > </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="contentall">
+        <div class="unit">
+            <h3>Unitare</h3>
+            <hr>
+        </div>
+        <div class="info1">
+            <select name="alimentare" id="1" class="alimentare">
+                <option value="1"><p>S.C ALIMENTARA S.R.L</p></option>
+                <option value="2"><p>S.C OLARIA S.R.L</p></option>
+                <option value="3"><p>S.C JUCARIA S.R.L</p></option>
+            </select>
+            <button class="greenplus"> <img src="43-433845_ambox-emblem-plus-green-plus-symbol.png" alt="" > Adauga</button>
+            <button class="confirm"><img src="seen-2524761-2140514.webp" alt="">Modifica</button>
+        </div>
+        <div class="info2">
+            <table cellspacing = "0">
+                <tr class="cif">
+                    <td class="right">C.I.F :</td>
+                    <td><input type="text" placeholder="RO123456789" class="nr1"></td>
+                    <td >Nr de inreg. la Reg. Com.</td>
+                    <td ><input type="text" placeholder="J12/3456/2012" class="nr2"></td>
+                </tr>
+                <tr>
+                    <td>Adresa :</td>
+                    <td colspan="3"><input type="text" placeholder="STR.STRADA NR 1. 1,LOCALITATEA, JUDETUL, ROMANIA" class="nr3"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="info3">
+            <table>
+                <tr>
+                    <td><h3>Serie / nr. de inreg. implicit:</h3> <hr></td>
+                    <td><h3>Comisia de interviere</h3> <hr></td>
+                </tr>
+                <tr>
+                    <td class="t1">
+                        <select name="ch_univ_1" id="1" class="ch_un">
+                            <option value="1"><p>[INVT_NR]</p></option>
+                            <option value="2"><p>var1</p></option>
+                            <option value="3"><p>var2</p></option>
+                        </select>
+                    </td>
+                    <td class="t2">
+                        <textarea name="message" rows="2" cols="30">
+                            the cat is top
+                        </textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="info4">
+            <h3>Imprimante</h3> <hr>
+            <table>
+                <tr>
+                    <td>Nota de plata</td>
+                    <td>
+                        <select name="sam" id="1">
+                            <option value="1">SAM4S-ER</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="9600">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="32">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nota de comanda</td>
+                    <td>
+                        <select name="sam" id="1">
+                            <option value="1">BIXOLON SRP-F310#:6</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="9600">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="32">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Comanda bucatarie :</td>
+                    <td>
+                        <select name="sam" id="1">
+                            <option value="1">BIXOLON SRP-F310#:6</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="9600">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="32">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Raport :</td>
+                    <td>
+                        <select name="sam" id="1">
+                            <option value="1">COM1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="9600" class="plus">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="32" class="plus">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>Viteza tip.</td>
+                    <td>Nr.c/l</td>
+                </tr>
+            </table>
+                
+        </div>
+        <div class="info5">
+            <div class="checkboc">
+                <input type="checkbox" name="var1" id="1">
+                <label for="var">Tipareste logo</label><br>
+                <input type="checkbox" name="var2" id="2" checked>
+                <label for="var2">Tipareste denumirea produselor/serviciilor in linii separate</label><br>
+                <input type="checkbox" name="var3" id="3">
+                <label for="var3">Tipareste nota de com. dupa bon fiscal/nota de pl.</label><br>
+                <input type="checkbox" name="var4" id="4" >
+                <label for="var4">Nu afiseaza comanda "Raport vinzari"</label><br>
+                <input type="checkbox" name="var5" id="5" checked>
+                <label for="var5">Afiseaza comanda "Inchiderea zilnica"</label>
+            </div>
+        </div>
+        
+    </div>
+    <div class="save">
+        <button><img src="Paomedia-Small-N-Flat-Floppy.ico" alt="">Salveaza</button>
+        <button><img src="images.png" alt="">Renunta</button>
+    </div>
+</div>
+</body>
+</html>

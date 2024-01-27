@@ -1,0 +1,130 @@
+*{
+    font-size: 12px;
+}
+
+
+h3{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+hr{
+    color: blue;
+    margin-top: -10px;
+    width: 97%;
+    
+}
+
+img{
+    height: 10px;
+    padding-right: 5px;
+}
+
+.contentall{
+    border: 1px solid blue;
+    border-top: 0px;
+    padding: 15px 10px 0px 10px ;
+    
+}
+
+.all{
+    border: 1px solid black;
+    padding: 15px;
+    width: 550px;
+    
+}
+
+.bord td{
+    border: 1px solid black;
+    border-bottom: 1px solid blue;
+    border-top-left-radius: 8px;
+    padding: 0px 10px;
+}
+
+.bord table{
+    width: 100%;
+}
+
+table .inl{
+    border: 0px solid white;
+    border-bottom: 1px solid blue;
+    text-align: right;
+}
+
+table .main {
+    border-bottom: 0px;
+    border-color: blue;
+}
+
+.info1 {
+    width: 100%;
+    text-align: center;
+}
+
+.info1 select{
+    width: 350px;
+}
+
+.info2{
+    padding-top: 10px;
+    text-align:left;
+}
+
+.info2 td{
+    padding-left: 10px;
+    
+}
+
+.right{
+    padding-right: 40px;
+}
+
+.nr1{
+    width: 90px;
+}
+
+.nr2 , .nr3{
+    width: 100%;
+}
+
+.info3 table{
+    width: 100%;
+}
+
+.info3 select , textarea{
+   width: 100%;
+}
+
+.t1 , .t2{
+    padding-left: 5px;
+}
+
+.t1{
+    width: 30%;
+    
+}
+
+.info4 select{
+    width: 180px;
+    margin-left: 15px;
+}
+
+.info4 input{
+    width: 50px;
+    text-align: right;
+    border: 0px solid white;
+}
+
+table td .plus{
+    border: 1px solid black;
+}
+
+.info5 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.save{
+    text-align: right;
+    padding-top: 10px;
+}
